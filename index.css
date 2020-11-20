@@ -1,0 +1,36 @@
+.body{
+  background-color: #a5dbe9;
+  text-align: left;
+}
+.head{
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 2px;
+}
+.row{
+  padding-bottom: 7px;
+}
+form{
+  padding-left: 20px;
+}
+input{
+  border-radius: 5px;
+  border: 2px solid #366875;
+  background-color: #d7f5fd;
+}
+.input{
+  border-radius: 5px;
+  border: 2px solid #366875;
+  background-color: #d7f5fd;
+}
+.button{
+  border-radius: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+#btn{
+  padding-left: 60%;
+  padding-top: 20px;
+}

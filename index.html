@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" title="style/css" type="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Registration FORMS</title>
+</head>
+<body class="body">
+  <div class="container-fluid">
+      <div class="col-lg-12">
+        <p class="h3 head bg-primary">
+          REGISTRATION FORM
+        </p>
+      </div>
+    </div>
+	<form method="post" autocomplete="off" name="regForm" accept-charset="utf-8">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="First Name">First Name</label>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <input type="text" name="txtFirstName" id="FirstName" title="Enter Alphabets Only" placeholder="Enter First name" pattern="[A-Za-z]+" required="" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="Last Name">Last Name</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+          <input type="text" name="txtLname" placeholder="Enter Last Name" title="Enter Alphabets Only" pattern="[A-Za-z]+" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="Gender">Gender</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+          <input type="radio" name="radGender" id="radMale" value="male">Male
+          <input type="radio" name="radGender" id="radFemale" value="female">Female
+          <input type="radio" name="radGender" id="radOther" value="other">Other
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="DOB">DOB</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+          <input type="date" name="dateBirth" min="1991-12-31" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="Father's Name">Father's Name</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+          <input type="text" name="txtFatname" pattern="[A-Za-z]+" title="Enter Alphabets Only" max="20" placeholder="Enter Father's Name" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="Mother's Name">Mother's Name</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+          <input type="text" name="txtMotname" max="20" pattern="[A-Za-z]+" title="Enter Alphabets Only" placeholder="Enter mother's name" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="Address">Address</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+          <textarea class="input" name="address" rows="4" cols="20" placeholder="Enter your address" required></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="Pincode">Pincode</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+          <input type="text" name="txtPincode" pattern="[0-9]{6}" title="Enter Numbers Only" placeholder="Enter Pincode" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="Phone">Phone</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+          <input type="text" name="txtCntryCode" value="+91" size="3">
+          <input type="text" name="txtPhone" placeholder="Enter Phone Number" title="Enter Numbers Only" pattern="[0-9]+" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="Email">Email</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+          <input type="email" name="emailYour" pattern="[A-Za-z0-9]+[@]+[a-z]+[.]+[a-z]{3}" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="Country">Country</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+          <select class="input">
+            <option value="india" selected>India</option>
+            <option value="america">America</option>
+            <option value="china">China</option>
+            <option value="russia">russia</option>
+            <option value="zyberia">zyberia</option>
+            <option value="mexico">mexico</option>
+            <option value="albania">albania</option>
+            <option value="angola">angola</option>
+            <option value="argentina">argentina</option>
+            <option value="brazil">brazil</option>
+            <option value="mangolia">mangolia</option>
+            <option value="belgiam">belgiam</option>
+            <option value="bhuttan">bhuttan</option>
+            <option value="italy">italy</option>
+            <option value="kuwait">kuwait</option>
+            <option value="dubai">dubai</option>
+            <option value="behrin">behrin</option>
+            <option value="canada">canada</option>
+            <option value="philippines">philippines</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="UserName">User Name</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+          <input type="text" name="txtUsername" required placeholder="Enter username" title="Enter Alphabets Only" pattern="[A-Za-z]+">
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="Password">Password</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+          <input type="password" name="pwdPassword" placeholder="Enter your password" pattern="[A-Za-z0-9]+" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="Confirm Password">Confirm Password</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+          <input type="password" name="pwdPassword" placeholder="Confirm your password" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="Hobbies">Hobbies</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+          <input type="checkbox" name="chkReading" id="cchkReading" value="reading">Reading
+          <input type="checkbox" name="chkSinging" id="chkSinging" value="singing">Singing
+          <input type="checkbox" name="chksketching" id="chksketching" value="sketching">sketching
+          <input type="checkbox" name="chktravelling" id="chktravelling" value="travelling">Travelling
+          <input type="checkbox" name="chkOthers" id="chkOthers" value="others">Others
+        </div>
+      </div>
+      <div class="row">
+        <div class="xs-5 col-sm-5 col-md-5">
+          <label for="UploadPhoto">Upload Photo</label>
+        </div>
+        <div class="xs-6 col-sm-6 col-md-6">
+           <input type="file" class="bg-link" name="filePhoto">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12" id="btn">
+          <button type="submit" class="btn-primary button">submit</button>
+          <button type="reset" class="btn-warning button">Reset</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
